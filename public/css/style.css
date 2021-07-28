@@ -6,6 +6,11 @@
     margin-bottom: 56px;
 }
 
-h1 {
-    color: violet;
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    min-width: 250px;
+    padding: 30px;
 }
