@@ -1,1 +1,41 @@
-<h1>Hello</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head'); %>
+</head>
+
+<body>
+    <%- include('../partials/header'); %>
+        <!-- This is the sticky navbar -->
+
+
+
+        <!-- This is the main container for the content -->
+        <main id="wrapper" class="container-fluid">
+            <div id="main-content" class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1>Heading 1</h1>
+                            Column 1
+                            <h1>Heading 1</h1>
+                        </div>
+                        <div class="col">
+                            Column 2
+                        </div>
+                        <div class="col">
+                            Column 3
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer mt-auto py-3 fixed-bottom bg-dark">
+            <%- include('../partials/footer'); %>
+
+        </footer>
+</body>
+
+</html>
